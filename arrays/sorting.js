@@ -39,3 +39,15 @@ function fruitSort(){
     return fruitArray.sort((a,b) => b.qty-a.qty);
 }
 console.log(fruitSort());
+
+function sortFruitName() {
+    return fruitArray.sort((a,b) => {
+        var x = a.type.toLowerCase();
+        var y = b.type.toLowerCase();
+        if(x<y)
+            return -1;
+        else    
+            return 1;
+    })
+}
+console.log(sortFruitName());
