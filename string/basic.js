@@ -9,7 +9,7 @@ console.log(str1);
 str1[0]='A'
 console.log(str1);
 
-var txt = str1.replace('i','a');//only first occurence
+var txt = str1.replace('i','a');//only first occurrence
 console.log(txt);
 
 txt=str1.replaceAll('i','a');
@@ -54,9 +54,9 @@ console.log(str.charCodeAt(0));
 var arr = str.split(' ');
 console.log(arr);
 arr = str.split('');
-console.log(arr);
+console.log(arr)
 
-//indexof compares is used for literals only and can have offset
+//index of compares is used for literals only and can have offset
 console.log(str.indexOf("Wor"));
 console.log(str.lastIndexOf("Wor"));
 console.log(str.indexOf("Wor",6));//starts from index 6
