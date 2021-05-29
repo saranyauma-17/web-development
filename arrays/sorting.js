@@ -27,3 +27,15 @@ function arrSort() {
     return arr.sort((a,b) => a-b );//function passed as parameter => Callback function
         
 }
+
+//sort object array
+var fruitArray = [
+    {type:"Banana",qty:"20"},
+    {type:"Melon",qty:"10"},
+    {type:"Apple",qty:"15"},
+    {type:"Mango",qty:"25"}
+]
+function fruitSort(){
+    return fruitArray.sort((a,b) => b.qty-a.qty);
+}
+console.log(fruitSort());
