@@ -1,5 +1,6 @@
 var cars = ["Volvo","BMW","Tata"];
 console.log(cars[3]);
+
 cars.push("Maruti");
 console.log(cars[3]);
 console.log(cars.pop());
